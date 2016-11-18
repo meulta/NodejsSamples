@@ -1,0 +1,16 @@
+{
+  "name": "marvel-bot",
+  "version": "1.0.0",
+  "description": "A simple bot that gives info about different Marvel characters",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nafis Zaman",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "botbuilder": "^3.4.2",
+    "request": "^2.76.0",
+    "restify": "^4.2.0"
+  }
+}
