@@ -55,7 +55,6 @@ bot.dialog('/getinfo', [
             var cardImage = builder.CardImage.create(session, imageUrl);
             var actionUrl = character.urls[0].url;
             if(actionUrl.substr(0, 5) !== "https") {
-                // TODO: Figure out why this has to be https
                 actionUrl = actionUrl.slice(0, 4) + "s" + actionUrl.slice(4);
             }
             var cardAction = builder.CardAction.openUrl(session, actionUrl, "More details");
